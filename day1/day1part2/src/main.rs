@@ -1,5 +1,3 @@
-#![allow(non_snake_case)]
-
 use std::fs::read_to_string;
 use regex::Regex;
 
