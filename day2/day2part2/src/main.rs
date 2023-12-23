@@ -2,11 +2,6 @@ use std::fs::read_to_string;
 use regex::Regex;
 
 fn main() {
-    let max_red = 12;
-    let max_green = 13;
-    let max_blue = 14;
-
-    let regex_game = Regex::new(r"Game (\d+):").unwrap();
     let regex_red = Regex::new(r"(\d+) red").unwrap();
     let regex_green = Regex::new(r"(\d+) green").unwrap();
     let regex_blue = Regex::new(r"(\d+) blue").unwrap();
